@@ -16,10 +16,12 @@ def get_new_user_token():
 def positive_assert(kit_body):
     response = sender_stand_request.post_new_client_kit(kit_body, get_new_user_token()) #Crea la solicitud con el nombre enviado desde la prueba y obtiene su token
     assert response.status_code == 201 #Valida que la respuesta sea 201 OK
+    assert response.json()["name"] == kit_body["name"] #Se valida que el nombre coincida con el que fue enviado
 
 def negative_assert(kit_body):
     response = sender_stand_request.post_new_client_kit(kit_body, get_new_user_token())
     assert response.status_code == 400 #Valida que la respuesta sea 400 Error
+    assert response.json()["name"] == kit_body["name"]  # Se valida que el nombre coincida con el que fue enviado
 
 #*************************************************************************************************************
 
@@ -52,7 +54,7 @@ def test_7_create_kit_name_numbers_string():
     positive_assert(current_kit_body) #Testea el escenario positivo de acuerdo a la lista de comprobacion
 
 def test_8_create_kit_name_no_parameter():
-    current_kit_body =  get_kit_body() #crea el kit sin parametro
+    current_kit_body = {} #crea el kit sin parametro
     negative_assert(current_kit_body) #Testea el escenario negativo de acuerdo a la lista de comprobacion
 
 def test_9_create_kit_name_int_numbers():
