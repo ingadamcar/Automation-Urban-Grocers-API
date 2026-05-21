@@ -24,7 +24,6 @@ constantes, concatenación de datos, diccionarios y sus métodos y funciones de 
 El IDE necesario para ejecutar el proyecto es PyCharm 2026.1 con su package PyTest 7.4.4.
 También se utilizaron comandos básicos de Git Bash para clonar y empujar (push) el proyecto desde y hacia GitHub.
 
-<h3 align="center">🎥 Video demostrativo</h3>
-<p align="center">
-  <video src="media/API_Urban_Grocers_Automation.mp4" width="100%" controls muted></video>
-</p>
+### 🎥 Video demostrativo
+
+![](media/API_Urban_Grocers_Automation.mp4)
