@@ -25,5 +25,4 @@ El IDE necesario para ejecutar el proyecto es PyCharm 2026.1 con su package PyTe
 También se utilizaron comandos básicos de Git Bash para clonar y empujar (push) el proyecto desde y hacia GitHub.
 
 ### 🎥 Video demostrativo
-
-![](media/API_Urban_Grocers_Automation.mp4)
+<a href="https://drive.google.com/file/d/1STGDIHeWPSlKheaS0x5bmDyw7-5-x_n5/view?usp=sharing">Urban Grocers Automation</a>
