@@ -1,5 +1,9 @@
 Proyecto Automatización de API Urban Grocers 
 
+### 🎥 Video demostrativo
+<a href="https://drive.google.com/file/d/1STGDIHeWPSlKheaS0x5bmDyw7-5-x_n5/view?usp=sharing">Urban Grocers Automation</a>
+NOTA: Los casos de prueba fallados, son bugs esperados.
+
 Proyecto de bootcamp para automatizar pruebas basadas en la lista de comprobacion descrita en este archivo
 para la API Urban Grocers que es un stock para pedir comida por medio de kits que solicita el usuario.
 A groso modo lo que se hace es enviar una solicitud POST para crear un usuario nuevo y posteriormente se realiza
@@ -23,7 +27,3 @@ Para desarrollar este proyecto se utilizaron conceptos básicos de python como: 
 constantes, concatenación de datos, diccionarios y sus métodos y funciones de 1 y 2 parametros.
 El IDE necesario para ejecutar el proyecto es PyCharm 2026.1 con su package PyTest 7.4.4.
 También se utilizaron comandos básicos de Git Bash para clonar y empujar (push) el proyecto desde y hacia GitHub.
-
-### 🎥 Video demostrativo
-<a href="https://drive.google.com/file/d/1STGDIHeWPSlKheaS0x5bmDyw7-5-x_n5/view?usp=sharing">Urban Grocers Automation</a>
-NOTA: Los casos de prueba fallados, son bugs esperados.
