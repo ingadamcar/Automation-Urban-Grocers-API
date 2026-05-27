@@ -26,3 +26,4 @@ También se utilizaron comandos básicos de Git Bash para clonar y empujar (push
 
 ### 🎥 Video demostrativo
 <a href="https://drive.google.com/file/d/1STGDIHeWPSlKheaS0x5bmDyw7-5-x_n5/view?usp=sharing">Urban Grocers Automation</a>
+NOTA: Los casos de prueba fallados, son bugs esperados.
